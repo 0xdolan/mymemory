@@ -1,0 +1,252 @@
+@font-face {
+  font-family: Vazir;
+  src: url("fonts/vazir-font/Vazir-Regular.eot");
+  src: url("fonts/vazir-font/Vazir-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/vazir-font/Vazir-Regular.woff2") format("woff2"),
+    url("fonts/vazir-font/Vazir-Regular.woff") format("woff"),
+    url("fonts/vazir-font/Vazir-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("fonts/vazir-font/Vazir-Bold.eot");
+  src: url("fonts/vazir-font/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/vazir-font/Vazir-Bold.woff2") format("woff2"),
+    url("fonts/vazir-font/Vazir-Bold.woff") format("woff"),
+    url("fonts/vazir-font/Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("fonts/vazir-font/Vazir-Black.eot");
+  src: url("fonts/vazir-font/Vazir-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/vazir-font/Vazir-Black.woff2") format("woff2"),
+    url("fonts/vazir-font/Vazir-Black.woff") format("woff"),
+    url("fonts/vazir-font/Vazir-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("fonts/vazir-font/Vazir-Medium.eot");
+  src: url("fonts/vazir-font/Vazir-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/vazir-font/Vazir-Medium.woff2") format("woff2"),
+    url("fonts/vazir-font/Vazir-Medium.woff") format("woff"),
+    url("fonts/vazir-font/Vazir-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("fonts/vazir-font/Vazir-Light.eot");
+  src: url("fonts/vazir-font/Vazir-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/vazir-font/Vazir-Light.woff2") format("woff2"),
+    url("fonts/vazir-font/Vazir-Light.woff") format("woff"),
+    url("fonts/vazir-font/Vazir-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("fonts/vazir-font/Vazir-Thin.eot");
+  src: url("fonts/vazir-font/Vazir-Thin.eot?#iefix") format("embedded-opentype"),
+    url("fonts/vazir-font/Vazir-Thin.woff2") format("woff2"),
+    url("fonts/vazir-font/Vazir-Thin.woff") format("woff"),
+    url("fonts/vazir-font/Vazir-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: Quicksand;
+  src: url("fonts/Quicksand/Quicksand-Light.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Quicksand;
+  src: url("fonts/Quicksand/Quicksand-Regular.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Quicksand;
+  src: url("fonts/Quicksand/Quicksand-Medium.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Quicksand;
+  src: url("fonts/Quicksand/Quicksand-SemiBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Quicksand;
+  src: url("fonts/Quicksand/Quicksand-Bold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  font-family: Vazir, roboto, Arial !important;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: #f9f9f9;
+  padding: 1em;
+  margin: 10px;
+  margin-top: 2rem;
+  border-radius: 15px;
+}
+
+.entry {
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 18px;
+  font-weight: bold;
+  color: #36a4e6;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.meaning {
+  direction: rtl;
+}
+.item {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #252525;
+  margin-bottom: 1em;
+  text-align: right;
+  position: relative;
+  padding-right: 15px;
+}
+.item:last-child {
+  margin-bottom: 0;
+}
+.item::after {
+  top: 12px;
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: #e0e0e0;
+  right: 0;
+  border-radius: 50%;
+}
+
+.category {
+  font-size: 17px;
+  color: #36a4e6;
+  margin-left: 5px;
+}
+
+.similar {
+  background: #f5f5f5;
+  border: 1px solid #ededed;
+  padding: 1em;
+  border-radius: 10px;
+}
+.similar-item {
+  font-size: 16px;
+  list-style: arabic-indic;
+  line-height: 1.8;
+  color: #3a3a3a;
+  margin-bottom: 12px;
+  font-weight: 300;
+}
+
+.similar-label {
+  font-size: 16px;
+  color: #36a4e6;
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+/* Description Style */
+
+.background {
+  font-family: "Quicksand", sans-serif !important;
+  min-height: 100vh;
+  background: #f9f9f9;
+  padding: 3em 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logo-container {
+  width: 20%;
+  margin: 1em auto;
+}
+
+.logo {
+  width: 100%;
+}
+
+.title {
+  font-family: "Quicksand", sans-serif !important;
+  text-decoration: none;
+  color: #36a4e6;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 3rem;
+}
+
+.description {
+  font-family: "Quicksand", sans-serif !important;
+  color: gray;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.description a {
+  font-family: "Quicksand", sans-serif !important;
+  color: gray;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.description b {
+  font-family: "Quicksand", sans-serif !important;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.about-us {
+  font-family: "Quicksand", sans-serif !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #ececec;
+}
+
+.about-text {
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #9f9f9f;
+  margin-right: 1em;
+}
+
+.about-text a {
+  font-family: "Quicksand", sans-serif !important;
+  text-decoration: none;
+  color: #9f9f9f;
+}
