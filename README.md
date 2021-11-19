@@ -44,13 +44,13 @@ Note:
 
 - **CSS** **file** **SHOULD NOT be renamed**
 
-[Download MDX]()
+[Download MDX](https://github.com/dolanskurd/mymemory/blob/main/MyMemory.mdx)
 
 Download MDD (N/A)
 
-[Download CSS]()
+[Download CSS](https://github.com/dolanskurd/mymemory/blob/main/style.css)
 
-[Download Dictionary Icon](MyMemory.png)
+[Download Dictionary Icon](https://github.com/dolanskurd/mymemory/blob/main/MyMemory.png)
 
 ## Usage Instructions
 
