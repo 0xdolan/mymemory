@@ -52,6 +52,13 @@ Download MDD (N/A)
 
 [Download Dictionary Icon](https://github.com/dolanskurd/mymemory/blob/main/MyMemory.png)
 
+## Used Fonts
+
+[Quicksand Font](https://fonts.google.com/specimen/Quicksand)
+
+[Vazir Font](https://rastikerdar.github.io/vazir-font/)
+
+
 ## Usage Instructions
 
 ### How to transfer dictionary files into your device?
